@@ -1,0 +1,9 @@
+.adminBody{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    gap: 100px;
+}
+
+.footer{
+    height: 300px;
+}

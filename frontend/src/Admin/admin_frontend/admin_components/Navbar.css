@@ -1,0 +1,65 @@
+.admin_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+/*navbar */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 10px;
+}
+
+.nav_login{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.nav_login:hover{
+    font-size: 21px;
+    color: #ac7118;
+    font-weight: 500;
+
+}
+
+.nav_signup{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.nav_signup:hover{
+    font-size: 21px;
+    color: #ac7118;
+    font-weight: 500;
+
+}
+
+.nav_logout{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    cursor: pointer;
+    margin-left: 30px;
+    background-color: #fff;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.nav_logout:hover{
+    color: #ac7118;
+    font-weight: 3px;
+    border: #ac7118 solid 2px;
+}
